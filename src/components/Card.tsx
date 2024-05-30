@@ -1,4 +1,9 @@
 import project1 from '../images/webp/thumbnail-project-1-small.webp'
+import project2 from '../images/webp/thumbnail-project-2-small.webp'
+import project3 from '../images/webp/thumbnail-project-3-small.webp'
+import project4 from '../images/webp/thumbnail-project-4-small.webp'
+import project5 from '../images/webp/thumbnail-project-5-small.webp'
+import project6 from '../images/webp/thumbnail-project-6-small.webp'
 
 
 
@@ -39,7 +44,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-2-small.webp"
+          src={project2}
           alt=""
         />
         <div className="py-4 text-2xl">
@@ -68,7 +73,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-3-small.webp"
+          src={project3}
           alt=""
         />
         <div className="py-4 text-2xl">
@@ -97,7 +102,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-4-small.webp"
+          src={project4}
           alt=""
         />
         <div className="py-4 text-2xl">
@@ -126,7 +131,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-5-small.webp"
+          src={project5}
           alt=""
         />
         <div className="py-4 text-2xl">
@@ -155,7 +160,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-6-small.webp"
+          src={project6}
           alt=""
         />
         <div className="py-4 text-2xl">
