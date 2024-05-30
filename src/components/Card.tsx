@@ -1,3 +1,8 @@
+import project1 from '../images/webp/thumbnail-project-1-small.webp'
+
+
+
+
 const Card = () => {
   return (
     // CARD1
@@ -5,7 +10,7 @@ const Card = () => {
       <div className="w-[343px] h-[398px] mb-10">
         <img
           className=" w-[343px] h-[253px]"
-          src="../../src/images/webp/thumbnail-project-1-small.webp"
+          src={project1}
           alt=""
         />
         <div className="py-4 text-2xl">
