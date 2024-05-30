@@ -73,7 +73,7 @@ const Hero = () => {
               building accessible web apps that users love.
             </p>
           </div>
-          <div className="mt-20 w-[130px] m-0 mx-auto mb-28 md:mx-0">
+          <div className="mt-20 w-[130px] m-0 mx-auto my-20 md:mx-0">
             <h2
               className="text-xl border-b-2 m-0"
               style={{ borderColor: "#4ee1a0" }}
