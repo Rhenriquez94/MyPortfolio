@@ -37,7 +37,7 @@ const Skills = () => {
         <img
             src={Ring}
             alt="ring"
-            className="w-[380px] left-48"
+            className="left-48 z-0 absolute top-[1880px]"
           />
         </div>
     </section>
