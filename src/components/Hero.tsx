@@ -11,7 +11,7 @@ const Hero = () => {
   return (
     <>
       <section>
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start w-full mx-auto">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start w-full mx-auto ">
           <div>
             <h1 className="text-4xl text-white mb-4 md:mb-0">adamkeyes</h1>
           </div>
@@ -40,22 +40,25 @@ const Hero = () => {
             className="absolute top-50 transform -translate-x-80 w-72 max-w-full"
           />
         </div>
-        <div className=" -mt-40">
+
+
+        <div className=" -mt-40 md:mt-0 md:h-[800px]">
           <picture>
             <source media="(min-width: 1024px)" srcSet={AvatarDesktop} />
             <img
               src={AvatarMobile}
-              className="w-[80%] sm:w-[445px] h-auto md:mt-[500px] mx-auto md:mx-0"
+              className="w-[80%] sm:w-[445px] h-auto md:-mt-20 mx-auto md:mx-0 md:ml-[800px]"
               alt="Description of image"
             />
           </picture>
           <img
             src={Circle}
             alt="ring"
-            className="absolute top-[430px] left-80 w-24 sm:w-48 max-w-full"
+            className="absolute top-[430px] left-80 w-24 sm:w-48 max-w-full md:left-[700px]"
           />
-        </div>
-        <div className="mt-20 md:flex-row md:items-start relative z-10">
+       
+        <div className="mt-20 relative z-10 md:bottom-[500px]
+">
           <div className="md:mt-20 text-center md:text-left">
             <h1 className="text-4xl md:text-6xl xl:text-8xl text-white">
               Nice to meet you!
@@ -67,7 +70,7 @@ const Hero = () => {
               </span>
             </h1>
           </div>
-          <div className="mt-20 text-center px-4">
+          <div className="mt-20 text-center px-4 md:text-left md:w-[450px] md:pl-0">
             <p className="text-[18px] m-0 max-w-md mx-auto">
               Based in the UK, I'm a front-end developer passionate about
               building accessible web apps that users love.
@@ -81,6 +84,11 @@ const Hero = () => {
               CONTACT ME
             </h2>
           </div>
+          </div>
+
+
+
+
         </div>
       </section>
     </>
