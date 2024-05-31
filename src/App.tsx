@@ -5,12 +5,17 @@ import Contact from './components/Contact.js'
 
 function App() {
   return (
-    <main className='relative p-0 flex flex-col items-center w-auto'>
-      <Hero/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-    </main>
+    <>
+      <main className='p-0 flex flex-col items-center overflow:hidden'>
+        <Hero/>
+        <Skills/>
+        <Projects/>
+        <Contact/>
+        
+      </main>
+   
+      
+    </>
   )
 }
 

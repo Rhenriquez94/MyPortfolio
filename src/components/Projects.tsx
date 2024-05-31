@@ -28,10 +28,10 @@ const proyects: Proyects[] = [
 
 const Proyects: React.FC = () => {
   return (
-    <section className="py-8">
-      <div className="container mx-auto px-4">
-      <div className='flex flex-row justify-between items-center p-0 m-0'>
-        <h1 className="text-5xl font-bold m-0 p-0 text-white">Proyects</h1>
+    <section className="p-10">
+      <div className="">
+      <div className='flex flex-row gap-6 items-center pb-10 m-0'>
+        <h1 className="text-4xl font-bold m-0 p-0 text-white">Proyects</h1>
         <h2 className="text-xl border-b-2 border-[#4ee1a0] m-0 p-0">CONTACT ME</h2>
       </div>
 

@@ -33,13 +33,13 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div>
+        {/* <div>
           <img
             src={Ring}
             alt="ring"
             className="absolute top-50 transform -translate-x-80 w-72 max-w-full"
           />
-        </div>
+        </div> */}
 
 
         <div className=" -mt-40 md:mt-0 md:h-[800px]">
@@ -51,11 +51,11 @@ const Hero = () => {
               alt="Description of image"
             />
           </picture>
-          <img
+          {/* <img
             src={Circle}
             alt="ring"
             className="absolute top-[430px] left-80 w-24 sm:w-48 max-w-full md:left-[700px]"
-          />
+          /> */}
        
         <div className="mt-20 relative z-10 md:bottom-[500px]
 ">

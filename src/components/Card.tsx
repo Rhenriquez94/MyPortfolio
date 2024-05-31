@@ -16,12 +16,18 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ title, language, image }) => {
   return (
-    <div className="p-6 overflow-hidden md:size-[500px] ">
-      <img className="w-full h-64 object-cover" src={image} alt="" />
+    <div className="overflow-hidden md:size-[500px] mb-20">
+      <img className=" w-11/12 h-64 object-cover" src={image} alt="" />
       <h3 className="text-2xl font-bold my-4 text-white">{title}</h3>
       <p className="text-gray-400">
       {language.join(', ')}
       </p>
+
+      <div className='flex flex-row gap-8 pt-6'>
+        <p className='border-b-2 m-0' style={{ borderColor: "#4ee1a0" }}>View Project</p>
+        <p className='border-b-2 m-0' style={{ borderColor: "#4ee1a0" }}>View Code</p>
+      </div>
+
       
     </div>
   );
