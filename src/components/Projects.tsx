@@ -28,15 +28,15 @@ const proyects: Proyects[] = [
 
 const Proyects: React.FC = () => {
   return (
-    <section className="p-10">
-      <div className="">
-      <div className='flex flex-row gap-6 items-center pb-10 m-0'>
+    <section className="p-10 md:w-[100%] ">
+      <div className="md:grid md:justify-center md:items-cente">
+      <div className='flex flex-row gap-6 items-center pb-10 m-0 md:flex md:justify-between'>
         <h1 className="text-4xl font-bold m-0 p-0 text-white">Proyects</h1>
         <h2 className="text-xl border-b-2 border-[#4ee1a0] m-0 p-0">CONTACT ME</h2>
       </div>
 
      
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-30 md:mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-30 md:mt-10 md:grid md:justify-center md:items-center">
           {proyects.map((proyecto) => (
             <Card
               key={proyecto.id}

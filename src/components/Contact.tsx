@@ -5,7 +5,7 @@ import IcoTwitter from "../images/icon/icon-twitter.svg";
 const Contact = () => {
   return (
     <>
-        <section className="bg-form flex flex-col gap-8 py-8 px-7 w-auto md:p-20 md:flex md:flex-row md:justify-center">
+        <section className="bg-form flex flex-col gap-8 py-8 px-7 w-full md:p-20 md:flex md:flex-row md:justify-center">
         <div className="md:w-[445px] flex flex-col justify-center w-72 text-center md:text-left ml-10">
             <h1 className="pt-4 text-white text-4xl mb-9">CONTACT</h1>
             <p>
@@ -35,12 +35,14 @@ const Contact = () => {
             </div>
             <div className="flex flex-col md:flex-row"></div>
         </div>
-        <div className="bg-form pb-9">
-            <p className="p-0 md:w-[118px] md:ml-[860px] h-auto border-b-2 bg-form w-32 ml-60" style={{ borderColor: "#4ee1a0" }}>
+
+        </section>
+
+        <div className="bg-form pb-9 w-full">
+            <p className="p-0 md:w-[118px] md:ml-[1230px] h-auto border-b-2 bg-form w-32 ml-60" style={{ borderColor: "#4ee1a0" }}>
                 Send Message
             </p>
         </div>
-        </section>
 
 
  
