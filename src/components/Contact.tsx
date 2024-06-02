@@ -1,6 +1,4 @@
-import IcoGitHub from "../images/icon/iconGithub.svg";
-import IcoLinkedIn from "../images/icon/icon-linkedin.svg";
-import IcoTwitter from "../images/icon/icon-twitter.svg";
+import IcoLinkedIn from "../images/icon/iconLinkedin.tsx";
 
 const Contact = () => {
   return (
@@ -50,21 +48,7 @@ const Contact = () => {
       <footer className="bg-form w-full h-40 flex flex-col justify-center gap-8 items-center p-4 border-t-2">
         <h1 className=" text-2xl font-bold text-white">adamkeyes</h1>
         <div className="flex flex-row gap-10">
-          <img
-            src={IcoGitHub}
-            alt="GitHub Icon"
-            className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8"
-          />
-          <img
-            src={IcoLinkedIn}
-            alt="LinkedIn Icon"
-            className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8"
-          />
-          <img
-            src={IcoTwitter}
-            alt="Twitter Icon"
-            className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8"
-          />
+        <IcoLinkedIn/>
         </div>
       </footer>
     </>

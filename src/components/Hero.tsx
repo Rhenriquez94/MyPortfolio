@@ -1,6 +1,4 @@
-import IcoGitHub from "../images/icon/iconGithub.svg";
-import IcoLinkedIn from "../images/icon/icon-linkedin.svg";
-import IcoTwitter from "../images/icon/icon-twitter.svg";
+import IcoLinkedIn from "../images/icon/iconLinkedin.tsx";
 import Ring from "../images/icon/pattern-rings.svg";
 
 import AvatarDesktop from "../images/webp/image-profile-desktop.webp";
@@ -16,22 +14,8 @@ const Hero = () => {
             <h1 className="text-4xl text-white mb-4 md:mb-0">adamkeyes</h1>
           </div>
           <div className="flex flex-row gap-5 z-10 mt-4 md:mt-0">
-  <img
-    src={IcoGitHub}
-    alt="GitHub Icon"
-    className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 hover:bg-green-800"
-  />
-  <img
-    src={IcoLinkedIn}
-    alt="LinkedIn Icon"
-    className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 hover:text-red-500"
-  />
-  <img
-    src={IcoTwitter}
-    alt="Twitter Icon"
-    className="w-7 h-7 md:w-8 md:h-8 lg:w-8 lg:h-8 hover:text-red-500"
-  />
-</div>
+            <IcoLinkedIn/>
+          </div>
 
         </div>
         <div>
