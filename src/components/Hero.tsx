@@ -44,7 +44,7 @@ const Hero = () => {
        
         <div className="mt-20 relative z-10 md:bottom-[500px]">
           <div className="md:mt-20 text-center md:text-left">
-            <h1 className="text-4xl md:text-6xl xl:text-8xl text-white">
+            <h1 className="text-5xl md:text-6xl xl:text-8xl text-white">
               Nice to meet you!
             </h1>
             <h1 className="text-4xl md:text-5xl xl:text-8xl text-white">
